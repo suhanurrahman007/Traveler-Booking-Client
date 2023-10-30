@@ -72,7 +72,7 @@ const Navbar = () => {
             tabIndex={0}
             className="mt-3 z-[1] py-2  space-y-3 px-4 bg-[#202074] text-white shadow menu menu-sm dropdown-content hover:bg-[#010313] hover:text-blue-300  hover:font-bold rounded-md w-28"
           >
-            <Link>Logout</Link>
+            <Link to={"/login"}>Login</Link>
           </ul>
         </div>
       </div>

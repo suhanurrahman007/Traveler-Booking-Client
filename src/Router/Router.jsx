@@ -6,6 +6,8 @@ import Hotel from "../Pages/Hotel/Hotel";
 import Tour from "../Pages/Tour/Tour";
 import Activity from "../Pages/Activity/Activity";
 import Car from "../Pages/Car/Car";
+import Login from "../Pages/Login/Login";
+import SignUp from "../Pages/SignUp/SignUp";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
       {
         path: "/car",
         element: <Car></Car>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/registration",
+        element: <SignUp></SignUp>
       },
     ],
   },
